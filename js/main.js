@@ -79,7 +79,7 @@ class playGame extends Phaser.Scene {
 
         // adding the text field
         this.prizeText = this.add.text(game.config.width / 2, game.config.height - 35, "Cứ quay là có thưởng", {
-            font: "bold 64px Rajdhani",
+            font: "bold 32px Rajdhani",
             align: "center",
             color: "white"
         });
@@ -110,7 +110,7 @@ class playGame extends Phaser.Scene {
             var degrees = Phaser.Math.Between(0, 360);
 
             // before the wheel ends spinning, we already know the prize according to "degrees" rotation and the number of slices
-            var prize = gameOptions.slices - 1 - Math.floor(degrees / (360 / gameOptions.slices));
+            var prize = gameOptions.slices - Math.floor(degrees / (360 / gameOptions.slices));
 
             // now the wheel cannot spin because it's already spinning
             this.canSpin = false;
