@@ -8,15 +8,14 @@ var gameOptions = {
 
     // prize names, starting from 12 o'clock going clockwise
     slicePrizes: [
-        "🎉 5% OFF",
-        "🎉 10% OFF",
-        "🎉 15% OFF",
-        "🎉 25% OFF",
-        "🎉 30% OFF",
-        "🎉 40% OFF",
-        "🎉 45% OFF",
-        "🎉 50% OFF",
-        "🎉 FREE PASTRY 🍰"
+        "🎉 Chúc mừng bạn được siêu ưu đãi xóa xăm chân mày",
+        "🎉 Chúc mừng bạn được siêu ưu đãi triệt lông OPT",
+        "🎉 Chúc mừng bạn được siêu ưu đãi chăm sóc da relax skin",
+        "🎉 Chúc mừng bạn được siêu ưu đãi xóa mụn thịt",
+        "🎉 Chúc mừng bạn được siêu ưu đãi xóa nám",
+        "🎉 Chúc mừng bạn được siêu ưu đãi phun môi",
+        "🎉 Chúc mừng bạn được siêu ưu đãi xóa xăm hình nghệ thuật",
+        "🎉 Chúc mừng bạn được siêu ưu đãi tắm trắng whitening",
     ],
 
     // wheel rotation duration, in milliseconds
