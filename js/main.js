@@ -4,7 +4,7 @@ var game;
 var gameOptions = {
 
     // slices (prizes) placed in the wheel
-    slices: 6,
+    slices: 8,
 
     // prize names, starting from 12 o'clock going clockwise
     slicePrizes: [
@@ -12,6 +12,9 @@ var gameOptions = {
         "🎉 10% OFF",
         "🎉 15% OFF",
         "🎉 25% OFF",
+        "🎉 30% OFF",
+        "🎉 40% OFF",
+        "🎉 45% OFF",
         "🎉 50% OFF",
         "🎉 FREE PASTRY 🍰"
     ],
