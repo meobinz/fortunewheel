@@ -110,7 +110,7 @@ class playGame extends Phaser.Scene {
             var degrees = Phaser.Math.Between(0, 360);
 
             // before the wheel ends spinning, we already know the prize according to "degrees" rotation and the number of slices
-            var prize = math.floor(gameOptions.slices - 1 - (degrees / (360 / gameOptions.slices)));
+            var prize = Math.floor(gameOptions.slices - 1 - (degrees / (360 / gameOptions.slices)));
 
             // now the wheel cannot spin because it's already spinning
             this.canSpin = false;
