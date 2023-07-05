@@ -8,14 +8,14 @@ var gameOptions = {
 
     // prize names, starting from 12 o'clock going clockwise
     slicePrizes: [
-        "🎉 Chúc mừng bạn được siêu ưu đãi xóa xăm chân mày",
-        "🎉 Chúc mừng bạn được siêu ưu đãi triệt lông OPT",
-        "🎉 Chúc mừng bạn được siêu ưu đãi chăm sóc da relax skin",
-        "🎉 Chúc mừng bạn được siêu ưu đãi xóa mụn thịt",
-        "🎉 Chúc mừng bạn được siêu ưu đãi xóa nám",
-        "🎉 Chúc mừng bạn được siêu ưu đãi phun môi",
-        "🎉 Chúc mừng bạn được siêu ưu đãi xóa xăm hình nghệ thuật",
-        "🎉 Chúc mừng bạn được siêu ưu đãi tắm trắng whitening",
+        "🎉 bạn được siêu ưu đãi xóa xăm chân mày",
+        "🎉 bạn được siêu ưu đãi triệt lông OPT",
+        "🎉 bạn được siêu ưu đãi chăm sóc da relax skin",
+        "🎉 bạn được siêu ưu đãi xóa mụn thịt",
+        "🎉 bạn được siêu ưu đãi xóa nám",
+        "🎉 bạn được siêu ưu đãi phun môi",
+        "🎉 bạn được siêu ưu đãi xóa xăm hình nghệ thuật",
+        "🎉 bạn được siêu ưu đãi tắm trắng whitening",
     ],
 
     // wheel rotation duration, in milliseconds
@@ -32,10 +32,10 @@ window.onload = function () {
         type: Phaser.CANVAS,
 
         // game width, in pixels
-        width: 850,
+        width: 1020,
 
         // game height, in pixels
-        height: 850,
+        height: 1020,
 
         // game background color
         backgroundColor: 0x880044,
